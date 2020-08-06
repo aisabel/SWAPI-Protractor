@@ -1,0 +1,497 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search for a Star Wars character",
+    "line": 1,
+    "id": "search-for-a-star-wars-character",
+    "tags": [],
+    "uri": "e2e\\features\\search-person.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars-character;search-valid-person-by-name",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search valid person by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for \"Luke Skywalker\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see person details",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-valid-person-by-name",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Search valid person by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for \"Leia Organa\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see person details",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-valid-person-by-name",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Search valid person by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2615000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for \"r2\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see person details",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-valid-person-by-name",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search valid person by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for \"Darth\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see person details",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars-character;search-invalid-person-by-name",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Search invalid person by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I search for invalid \"Alderaan\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I see not found",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Search for a Star Wars  planet",
+    "line": 1,
+    "id": "search-for-a-star-wars--planet",
+    "tags": [],
+    "uri": "e2e\\features\\search-planet.feature",
+    "elements": [
+      {
+        "id": "search-for-a-star-wars--planet;search-planet-by-name",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search planet by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for planet \"Alderaan\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see planet details",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars--planet;search-planet-by-name",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Search planet by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for planet \"Hoth\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I see planet details",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-a-star-wars--planet;search-invalid-planet-by-name",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search invalid planet by name",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2649000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "I search for invalid \"Mars\"",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I see not found",
+            "match": {
+              "location": "e2e\\steps\\search.steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

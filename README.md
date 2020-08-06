@@ -16,7 +16,7 @@ So, what you should expect when using this app are the following:
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
 ## Requirements
-- NodeJS 8 or later
+- NodeJS 10
 - Chrome browser
 - Tested on windows 10
 
